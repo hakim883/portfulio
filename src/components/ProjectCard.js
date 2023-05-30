@@ -22,21 +22,21 @@ const ProjetCard = ({
 
   // Buttons in the footer of the modal, conditioned by github link or website.
   const conditionedButtons = [
-    {
-      href: github.hrefFront,
-      text: 'Github du Front',
-      show: github.hrefFront !== '' && github.hrefBack !== '',
-    },
-    {
-      href: github.hrefBack,
-      text: 'Github du Back',
-      show: github.hrefFront !== '' && github.hrefBack !== '',
-    },
-    {
-      href: github.href,
-      text: 'Voir le Github',
-      show: github.href !== '',
-    },
+    // {
+    //   href: github.hrefFront,
+    //   text: 'Github du Front',
+    //   show: github.hrefFront !== '' && github.hrefBack !== '',
+    // },
+    // {
+    //   href: github.hrefBack,
+    //   text: 'Github du Back',
+    //   show: github.hrefFront !== '' && github.hrefBack !== '',
+    // },
+    // {
+    //   href: github.href,
+    //   text: 'Voir le Github',
+    //   show: github.href !== '',
+    // },
     // {
     //   href: site,
     //   text: but ? 'Le site aem.tn' : 'Voir le site',

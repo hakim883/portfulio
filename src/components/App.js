@@ -28,7 +28,8 @@ const App = () => (
       <div class="row">
       <div class="col-sm-6 col-lg-3" id='jj'>
       <img src="11.jpeg" alt="but.webp" width="250" height="250"/>
-</div>      <div class="col-sm-6 col-lg-7" >
+</div>   
+   <div class="col-sm-6 col-lg-7" >
 
       <AProposSection /></div></div>
       <TechnoSection />
