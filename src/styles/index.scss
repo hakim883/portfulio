@@ -1,7 +1,7 @@
 @import './_vars';
-// .row{
-//   margin-top: 25%;
-// }
+.row{
+  margin-top: 25%;
+}
 .rowA {
   display: flex;
   flex-direction: row;
@@ -26,41 +26,15 @@ h1 {
 // #tt{
 //   margin-top: -03%;
 // }
-#jj{
-  margin-top: 10%;
-  margin-left: 08%;
-   display: 'block';
-   text-align: center;
+// #jj{
+//   margin-top: 10%;
+//   margin-left: 08%;
+//    display: 'block';
+//    text-align: center;
 
 
 
-
-   transition: transform 0.3s;
-   border-radius: 15px;
- 
-   @media (min-width: 768px) {
-     &:hover {
-       transform: translateY(-10px);
-     }
-   }
-   &__img-top {
-     border-radius: 15px 15px 0 0;
-   }
-   &__body,
-   &__title {
-     color: $text;
-   }
-   &__text {
-     color: rgba(255, 255, 255, 0.8);
-   }
-   &__button {
-     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-   }
-   &:hover &__button {
-     background: rgb(23 29 48 / 55%) !important;
-   }
-
-    }
+//     }
 
 form {
   background: #00000012;
