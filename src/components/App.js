@@ -26,7 +26,8 @@ const App = () => (
     <Header />
     <main>
       <div class="row">
-      <div class="rowA col-sm-6 col-lg-3" id='jj'>
+      <div class="rowA " id='jj'>
+      {/* col-sm-6 col-lg-3 */}
       <img src="11.jpeg" alt="but.webp" width="250" height="250"/>
 </div>   
    <div class="rowA col-sm-6 col-lg-7" >
